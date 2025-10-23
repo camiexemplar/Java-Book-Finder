@@ -1,9 +1,9 @@
-package controller;
+package br.com.bookfinder.controller;
 
-import service.BookService;
-import repository.BookRepository;
-import view.BookView;
-import model.Book;
+import br.com.bookfinder.service.BookService;
+import br.com.bookfinder.repository.BookRepository;
+import br.com.bookfinder.view.BookView;
+import br.com.bookfinder.model.Book;
 import java.util.List;
 import java.util.Scanner;
 
@@ -27,9 +27,10 @@ public class BookController {
         if (escolha > 0 && escolha <= books.size()) {
             Book selecionado = books.get(escolha - 1);
             repository.save(selecionado);
-            System.out.println("✅ Livro salvo no banco: " + selecionado.getTitle());
+            System.out.println("Livro salvo no banco: " + selecionado.getTitle());
         } else {
-            System.out.println("❌ Nenhum livro foi salvo.");
+            System.out.println("Nenhum livro foi salvo.");
         }
     }
 }
+

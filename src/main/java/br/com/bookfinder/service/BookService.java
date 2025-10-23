@@ -1,6 +1,5 @@
-package service;
-
-import model.Book;
+package br.com.bookfinder.service;
+import br.com.bookfinder.model.Book;
 import com.google.gson.*;
 import java.net.http.*;
 import java.net.URI;

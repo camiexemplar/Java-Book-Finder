@@ -1,4 +1,4 @@
-package model;
+package br.com.bookfinder.model;
 
 public class Book {
     private String title;
@@ -17,9 +17,9 @@ public class Book {
 
     @Override
     public String toString() {
-        return "\n📘 Título: " + title +
-                "\n✍ Autores: " + authors +
-                "\n📅 Data: " + publishedDate +
+        return "\n - Título: " + title +
+                "\n - Autores: " + authors +
+                "\n - Data: " + publishedDate +
                 "\n---------------------------";
     }
 }

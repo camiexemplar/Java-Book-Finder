@@ -1,6 +1,5 @@
-package repository;
-
-import model.Book;
+package br.com.bookfinder.repository;
+import br.com.bookfinder.model.Book;
 import java.sql.*;
 import java.util.List;
 
