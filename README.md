@@ -1,3 +1,10 @@
+# Integrantes
+* Eduarda Weiss Ventura — RM: 564434
+* Lucas Nunes Soares — RM: 566503
+*	Camily Vitoria Pereira Maciel — RM: 566520
+
+---
+
 # Java Book Finder
 
 Aplicação **Java** que **consome uma API pública de livros**, exibe os resultados no console e permite persistir um título selecionado em banco Oracle. O projeto segue arquitetura em camadas (MVC) para separar responsabilidades.
